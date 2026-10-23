@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of Zach N. Sagoso - BSIT student, web developer and programmer.">
+    <title>Zach N. Sagoso - Personal Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@700;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="nav-wrap">
+        <nav class="navbar">
+            <a href="#hero" class="logo"><span class="logo-dot"></span>ZACH<span class="logo-accent">.WEB</span></a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="nav-links" id="navLinks">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#awards">Awards</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section id="hero" class="hero">
+            <svg class="hero-emblem" viewBox="0 0 600 700" aria-hidden="true">
+                <defs>
+                    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+                        <stop offset="0%" stop-color="#e10613" stop-opacity="0.25"/>
+                        <stop offset="100%" stop-color="#e10613" stop-opacity="0"/>
+                    </radialGradient>
+                </defs>
+                <ellipse cx="300" cy="350" rx="290" ry="340" fill="url(#glow)"/>
+                <ellipse cx="300" cy="350" rx="250" ry="320" fill="none" stroke="#c4000e" stroke-width="10" stroke-opacity="0.55"/>
+                <ellipse cx="300" cy="350" rx="215" ry="285" fill="none" stroke="#c4000e" stroke-width="2" stroke-opacity="0.4"/>
+                <polygon points="300,90 520,220 520,480 300,610 80,480 80,220" fill="none" stroke="#e10613" stroke-width="2" stroke-opacity="0.35"/>
+                <polygon points="300,170 450,258 450,442 300,530 150,442 150,258" fill="none" stroke="#e10613" stroke-width="2" stroke-opacity="0.28"/>
+                <g stroke="#e10613" stroke-opacity="0.22" stroke-width="2">
+                    <line x1="300" y1="30" x2="300" y2="670"/>
+                    <line x1="40" y1="350" x2="560" y2="350"/>
+                </g>
+            </svg>
+
+            <div class="hero-content">
+                <span class="hero-tag">Welcome</span>
+                <h1 class="hero-title">MY PORTFOLIO</h1>
+                <p class="hero-sub">Explore the work, skills, and creative journey of Zach N. Sagoso &mdash; IT Student &amp; Web Developer.</p>
+                <a href="#home-section" class="btn-primary">GET STARTED <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </section>
+
+        <div class="container">
+
+            <!-- IT STUDENT -->
+            <section id="home-section" class="panel student reveal">
+                <div class="student-art">
+                    <svg viewBox="0 0 200 200" aria-hidden="true">
+                        <circle cx="100" cy="100" r="68" fill="#e10613" fill-opacity="0.16"/>
+                        <circle cx="100" cy="100" r="68" fill="none" stroke="#e10613" stroke-opacity="0.35" stroke-width="3"/>
+                        <polygon points="100,38 168,150 32,150" fill="none" stroke="#e10613" stroke-width="12" stroke-linejoin="miter"/>
+                        <text x="100" y="128" text-anchor="middle" font-family="Orbitron, sans-serif" font-weight="900" font-size="30" fill="#e10613">&lt;/&gt;</text>
+                    </svg>
+                </div>
+                <div class="student-body">
+                    <span class="chip">BSIT Student &amp; Developer</span>
+                    <h2 class="display">Information Technology Student</h2>
+                    <p class="lead">
+                        Currently pursuing a Bachelor of Science in Information Technology at <strong>Notre Dame of Dadiangas University</strong>.
+                        Focused on web development, UI/UX aesthetics, and back-end logic through HTML, CSS, JavaScript, C++, and Python.
+                        Constant learner, problem solver, and tech enthusiast.
+                    </p>
+                    <div class="pill-row">
+                        <a href="#projects" class="pill pill-light">Portfolio</a>
+                        <a href="#education" class="pill pill-dark">Education</a>
+                        <a href="#awards" class="pill pill-dark">Awards</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ABOUT -->
+            <section id="about" class="reveal">
+                <div class="section-head">
+                    <div>
+                        <h2 class="display">About Me</h2>
+                        <p class="section-sub">Passionate Web Developer &amp; Programmer</p>
+                    </div>
+                    <div class="pill-row">
+                        <a href="#info-list" class="pill pill-light">Information</a>
+                        <a href="#projects" class="pill pill-dark">View Projects</a>
+                    </div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="panel about-card">
+                        <h3 class="name">ZACH N. SAGOSO</h3>
+                        <p class="lead">
+                            A driven Information Technology student passionate about web development, clean UI/UX design, and practical software solutions.
+                            I specialize in building clean, responsive web interfaces with HTML, CSS, and JavaScript, while exploring logical back-end design with C++ and Python.
+                            Always building, learning, and refining digital experiences.
+                        </p>
+                        <div class="motto">"DESIGN. BUILD. REFINE."</div>
+                    </div>
+
+                    <div class="panel photo-card">
+                        <div class="photo-frame">
+                            <img src="TVPPH-481.jpg" alt="Portrait of Zach N. Sagoso in a white shirt and red tie" class="photo" onerror="this.style.display='none'">
+                            <div class="photo-overlay">
+                                <span class="photo-name">Zach Sagoso</span>
+                                <span class="photo-badge">BSIT Undergraduate</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SKILLS / EDUCATION / PROJECTS -->
+            <section id="skills" class="three-col reveal">
+
+                <div class="panel mini">
+                    <div class="mini-head">
+                        <h3><i class="fa-solid fa-code red"></i> My Skills</h3>
+                        <i class="fa-solid fa-gamepad head-side"></i>
+                    </div>
+                    <p class="mini-note">Technologies &amp; frameworks I work with:</p>
+                    <div class="skill-grid">
+                        <div class="skill"><i class="fa-brands fa-github"></i><span>GitHub</span></div>
+                        <div class="skill"><i class="fa-brands fa-python" style="color:#f7c93e"></i><span>Python</span></div>
+                        <div class="skill"><b class="cpp">C++</b><span>C++</span></div>
+                        <div class="skill"><i class="fa-brands fa-php" style="color:#8892bf"></i><span>PHP</span></div>
+                        <div class="skill"><i class="fa-brands fa-css3-alt" style="color:#2d8cf0"></i><span>CSS3</span></div>
+                        <div class="skill"><i class="fa-brands fa-square-js" style="color:#f7df1e"></i><span>JS</span></div>
+                        <div class="skill"><i class="fa-solid fa-triangle-exclamation"></i><span>Vercel</span></div>
+                        <div class="skill"><i class="fa-brands fa-html5" style="color:#f1662a"></i><span>HTML5</span></div>
+                        <div class="skill"><i class="fa-brands fa-figma" style="color:#a259ff"></i><span>Figma</span></div>
+                    </div>
+                </div>
+
+                <div id="education" class="panel mini">
+                    <div class="mini-head">
+                        <h3><i class="fa-solid fa-graduation-cap red"></i> Education</h3>
+                        <i class="fa-solid fa-city head-side"></i>
+                    </div>
+                    <ul class="edu-list">
+                        <li class="active">
+                            <i class="fa-solid fa-building-columns red"></i>
+                            <div><strong>NDDU</strong><span>BS Information Technology</span></div>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-landmark"></i>
+                            <div><strong>Stratford Intl. School</strong><span>Senior High School - STEM Strand</span></div>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-school"></i>
+                            <div><strong>Notre Dame of Kabacan</strong><span>Junior High School</span></div>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-book-open"></i>
+                            <div><strong>Kabacan Pilot Central</strong><span>Elementary Education</span></div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="projects" class="panel mini">
+                    <div class="mini-head">
+                        <h3><i class="fa-solid fa-laptop-code red"></i> Projects</h3>
+                        <i class="fa-solid fa-mobile-screen head-side"></i>
+                    </div>
+                    <div class="project-list">
+                        <div class="project">
+                            <div class="project-top"><strong>SakaySafe App</strong><span class="tag">UI/UX</span></div>
+                            <p>Commuter safety &amp; tracking application concept.</p>
+                        </div>
+                        <div class="project">
+                            <div class="project-top"><strong>Personal Portfolio</strong><span class="tag">HTML/CSS/JS</span></div>
+                            <p>Interactive personal showcase with a bold red &amp; black theme.</p>
+                        </div>
+                        <div class="project">
+                            <div class="project-top"><strong>C++ Logic Solvers</strong><span class="tag">C++</span></div>
+                            <p>Algorithmic problem-solving repository.</p>
+                        </div>
+                    </div>
+                    <a href="https://github.com/zachsagoso" target="_blank" rel="noopener noreferrer" class="btn-explore">EXPLORE ALL PROJECTS</a>
+                </div>
+
+            </section>
+
+            <!-- INFORMATION -->
+            <section id="info-list" class="panel reveal">
+                <div class="panel-head">
+                    <h2 class="display sm">Information</h2>
+                    <i class="fa-solid fa-id-card red"></i>
+                </div>
+                <ul class="info-list">
+                    <li><strong>Full Name</strong><span>Zach Naungayan Sagoso</span></li>
+                    <li><strong>Date of Birth</strong><span>December 11, 2007</span></li>
+                    <li><strong>Role / Status</strong><span>BSIT Undergraduate | Web Developer &amp; Programmer</span></li>
+                    <li><strong>Institution</strong><span>Notre Dame of Dadiangas University (NDDU)</span></li>
+                    <li><strong>Location</strong><span>General Santos City, Philippines</span></li>
+                    <li><strong>Focus Areas</strong><span>Web Development (HTML/CSS/JS), C++ Programming, Python Scripting</span></li>
+                    <li><strong>Education</strong><span>Graduate, STEM Strand (Stratford International School)</span></li>
+                    <li><strong>Former School</strong><span>Notre Dame of Kabacan, Inc.</span></li>
+                    <li><strong>Affiliations</strong><span>PSITS Representative</span></li>
+                    <li><strong>Senior High School</strong><span>STEM Department President &amp; Class President</span></li>
+                    <li><strong>Publications &amp; Media</strong><span>Assistant Editor-in-Chief</span></li>
+                    <li><strong>Student Services</strong><span>Peer Facilitator &amp; Sepak Takraw Team Captain</span></li>
+                </ul>
+            </section>
+
+            <!-- HOBBIES -->
+            <section id="hobbies" class="panel reveal">
+                <div class="panel-head">
+                    <h2 class="display sm">Hobbies and Interests</h2>
+                    <i class="fa-solid fa-icons red"></i>
+                </div>
+                <div class="hobby-grid">
+                    <div class="hobby"><i class="fa-solid fa-pen-nib"></i><span>Practicing UI/UX Design</span></div>
+                    <div class="hobby"><i class="fa-solid fa-guitar"></i><span>Guitar / Electric Guitar</span></div>
+                    <div class="hobby"><i class="fa-solid fa-music"></i><span>Ukulele</span></div>
+                    <div class="hobby"><i class="fa-solid fa-gamepad"></i><span>Online Games</span></div>
+                    <div class="hobby"><i class="fa-solid fa-volleyball"></i><span>Sepak Takraw</span></div>
+                    <div class="hobby"><i class="fa-solid fa-person-swimming"></i><span>Swimming</span></div>
+                    <div class="hobby"><i class="fa-solid fa-chess"></i><span>Chess</span></div>
+                </div>
+            </section>
+
+            <!-- AWARDS -->
+            <section id="awards" class="panel reveal">
+                <div class="panel-head">
+                    <h2 class="display sm">Awards and Affiliations</h2>
+                    <i class="fa-solid fa-trophy red"></i>
+                </div>
+                <div class="awards-scroll">
+                    <ul class="awards-list">
+                        <li><i class="fa-solid fa-award" style="color:#f7c93e"></i>Grade 12 STEM - President</li>
+                        <li><i class="fa-solid fa-award" style="color:#f7c93e"></i>Consistent 1st Runner Student (Grade 1 to Grade 6)</li>
+                        <li><i class="fa-solid fa-star" style="color:#f7c93e"></i>Consistent With Honor - Grade 11 &amp; Grade 12</li>
+                        <li><i class="fa-solid fa-certificate" style="color:#e10613"></i>Best Capstone Research Presenter</li>
+                        <li><i class="fa-solid fa-medal" style="color:#f7c93e"></i>Leadership Award - 12 STEM &amp; STEM President</li>
+                        <li><i class="fa-solid fa-newspaper" style="color:#5b9bf0"></i>Assistant Editor-in-Chief - The Globe Publication (2020)</li>
+                        <li><i class="fa-solid fa-people-group" style="color:#43c46a"></i>PSITS 1st Year Representative (2025)</li>
+                        <li><i class="fa-solid fa-volleyball" style="color:#f0933a"></i>Sepak Takraw Intramurals - 1st &amp; 2nd Runner Up (2024)</li>
+                        <li><i class="fa-solid fa-person-swimming" style="color:#2ed3e6"></i>Swimming Intramurals Relay Committee Head / Technician (2025)</li>
+                        <li><i class="fa-solid fa-chess-queen" style="color:#a78bfa"></i>Chess and Board Committee Head (2024)</li>
+                        <li><i class="fa-solid fa-pen" style="color:#5b9bf0"></i>Kabacan Pilot Central Elementary School - Sports Writer (2017–2018)</li>
+                        <li><i class="fa-solid fa-user-tie" style="color:#f7c93e"></i>Kabacan Pilot Central Elementary School - SSG President (2017)</li>
+                        <li><i class="fa-solid fa-newspaper" style="color:#5b9bf0"></i>The Globe Publication - Sports Writer (2018)</li>
+                        <li><i class="fa-solid fa-pen-fancy" style="color:#5b9bf0"></i>STEM MEDIA - Writer (2018)</li>
+                        <li><i class="fa-solid fa-user-tie" style="color:#f7c93e"></i>STEM STRAND - President (2020)</li>
+                        <li><i class="fa-solid fa-shield-halved" style="color:#43c46a"></i>STEM STRAND - Peace Officer (2021)</li>
+                        <li><i class="fa-solid fa-user-group" style="color:#43c46a"></i>Grade 7-8 President/Vice President (2021–2022)</li>
+                        <li><i class="fa-solid fa-user-group" style="color:#43c46a"></i>Grade 11-12 President/Vice President (2024–2025)</li>
+                        <li><i class="fa-solid fa-landmark" style="color:#f7c93e"></i>SELG Ex-Officio (2025)</li>
+                        <li><i class="fa-solid fa-handshake-angle" style="color:#43c46a"></i>Notre Dame of Kabacan Inc. Peer Facilitator</li>
+                        <li><i class="fa-solid fa-music" style="color:#e10613"></i>Mass Dance Intramurals Chairman - Champion (2024)</li>
+                        <li><i class="fa-solid fa-person-running" style="color:#f0933a"></i>Athletics Relay 400m (mix) - 1st Runner Up (2024)</li>
+                        <li><i class="fa-solid fa-newspaper" style="color:#5b9bf0"></i>The Voice Publication - Sports Writer (2024)</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- CONTACT -->
+            <section id="contact" class="panel contact reveal">
+                <div class="panel-head">
+                    <h2 class="display sm">Contact Me</h2>
+                    <i class="fa-solid fa-paper-plane red"></i>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <p class="contact-intro">Feel free to reach out for collaborations, project inquiries, or web development connections!</p>
+
+                        <a href="mailto:zachsagoso11@gmail.com" class="contact-item">
+                            <span class="contact-icon"><i class="fa-solid fa-envelope"></i></span>
+                            <span><small>Email</small><strong>zachsagoso11@gmail.com</strong></span>
+                        </a>
+                        <a href="https://github.com/zachsagoso" target="_blank" rel="noopener noreferrer" class="contact-item">
+                            <span class="contact-icon"><i class="fa-brands fa-github"></i></span>
+                            <span><small>GitHub</small><strong>github.com/zachsagoso</strong></span>
+                        </a>
+                        <a href="tel:09700777043" class="contact-item">
+                            <span class="contact-icon"><i class="fa-solid fa-phone"></i></span>
+                            <span><small>Phone / Mobile</small><strong>09700777043</strong></span>
+                        </a>
+                    </div>
+
+                    <form id="contactForm" class="contact-form" novalidate>
+                        <label for="name">Your Name</label>
+                        <input id="name" name="name" type="text" placeholder="Enter your full name" required>
+
+                        <label for="email">Your Email</label>
+                        <input id="email" name="email" type="email" placeholder="name@example.com" required>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
+
+                        <button type="submit" class="btn-send">SEND MESSAGE</button>
+                        <p id="formStatus" class="form-status" role="status"></p>
+                    </form>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>ALL RIGHTS RESERVED &copy; 2026 UNSONG PORTFOLIO | ZACH N. SAGOSO</p>
+    </footer>
+
+    <script>
+        (function () {
+            document.documentElement.classList.add('js');
+
+            // Mobile menu
+            var toggle = document.getElementById('navToggle');
+            var links = document.getElementById('navLinks');
+            toggle.addEventListener('click', function () {
+                var open = links.classList.toggle('open');
+                toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+            });
+            links.addEventListener('click', function (e) {
+                if (e.target.tagName === 'A') {
+                    links.classList.remove('open');
+                    toggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+
+            // Reveal on scroll
+            var items = document.querySelectorAll('.reveal');
+            if ('IntersectionObserver' in window) {
+                var io = new IntersectionObserver(function (entries) {
+                    entries.forEach(function (en) {
+                        if (en.isIntersecting) {
+                            en.target.classList.add('in');
+                            io.unobserve(en.target);
+                        }
+                    });
+                }, { threshold: 0.08 });
+                items.forEach(function (el) { io.observe(el); });
+            } else {
+                items.forEach(function (el) { el.classList.add('in'); });
+            }
+
+            // Contact form -> opens the visitor's email app with the message filled in
+            var form = document.getElementById('contactForm');
+            var status = document.getElementById('formStatus');
+            form.addEventListener('submit', function (e) {
+                e.preventDefault();
+                var name = form.name.value.trim();
+                var email = form.email.value.trim();
+                var message = form.message.value.trim();
+                if (!name || !email || !message) {
+                    status.textContent = 'Please fill in all fields.';
+                    return;
+                }
+                var subject = encodeURIComponent('Portfolio message from ' + name);
+                var body = encodeURIComponent(message + '\n\n- ' + name + ' (' + email + ')');
+                window.location.href = 'mailto:zachsagoso11@gmail.com?subject=' + subject + '&body=' + body;
+                status.textContent = 'Opening your email app...';
+            });
+        })();
+    </script>
+</body>
+</html>
